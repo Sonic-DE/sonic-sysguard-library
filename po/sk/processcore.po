@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: processcore\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-01 02:42+0000\n"
+"POT-Creation-Date: 2026-04-01 00:47+0000\n"
 "PO-Revision-Date: 2023-06-11 16:40+0200\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation@opensuse.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Lokalize 21.12.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: cgroup_data_model.cpp:50
 #, kde-format
@@ -279,14 +279,15 @@ msgstr ""
 "skoro bezvýznamné."
 
 #: extended_process_list.cpp:333
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "RSS Memory Usage"
 msgid "Resident Memory Usage"
 msgstr "Využitie pamäte RSS"
 
 #: extended_process_list.cpp:335
 #, kde-format
 msgid "Resident"
-msgstr "Rezidentná"
+msgstr ""
 
 #: extended_process_list.cpp:339
 #, kde-format
@@ -308,14 +309,19 @@ msgid "Private"
 msgstr "Súkromné"
 
 #: extended_process_list.cpp:349
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the amount of physical memory that this process is using by "
+#| "itself, and approximates the Private memory usage of the process.<br>It "
+#| "does not include any swapped out memory, nor the code size of its shared "
+#| "libraries."
 msgid ""
 "This is the amount of physical memory that this process is using by itself, "
 "and approximates the Private memory usage of the process. It does not "
 "include any swapped out memory, nor the code size of its shared libraries."
 msgstr ""
 "Toto je veľkosť reálnej fyzickej pamäte, ktorú používa samotný proces, "
-"približuje sa k súkromnému využitiu pamäte procesu. Nezahŕňa žiadnu "
+"približuje sa k súkromnému využitiu pamäte procesu.<br>Nezahŕňa žiadnu "
 "odkladanú pamäť ani veľkosť kódu zdieľaných knižníc."
 
 #: extended_process_list.cpp:356
@@ -329,18 +335,23 @@ msgid "Shared"
 msgstr "Zdieľané"
 
 #: extended_process_list.cpp:367
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is approximately the amount of real physical memory that this "
+#| "process's shared libraries are using.<br>This memory is shared among all "
+#| "processes that use this library."
 msgid ""
 "This is approximately the amount of real physical memory that this process's "
 "shared libraries are using. This memory is shared among all processes that "
 "use this library."
 msgstr ""
 "Toto je približne množstvo skutočnej fyzickej pamäte, ktorú využívajú "
-"zdieľané knižnice tohto procesu. Táto pamäť je zdieľaná všetkými procesmi, "
-"ktoré používajú túto knižnicu."
+"zdieľané knižnice tohto procesu.<br>Táto pamäť je zdieľaná všetkými "
+"procesmi, ktoré používajú túto knižnicu."
 
 #: extended_process_list.cpp:375
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Private Memory Usage"
 msgctxt "@title:column"
 msgid "Proportional Memory Usage"
 msgstr "Využitie súkromnej pamäte"
@@ -349,10 +360,15 @@ msgstr "Využitie súkromnej pamäte"
 #, kde-format
 msgctxt "@title:column"
 msgid "Proportional"
-msgstr "Proporcionálna"
+msgstr ""
 
 #: extended_process_list.cpp:385
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is an approximation of the real amount of physical memory that this "
+#| "process is using. It is calculated by dividing the process' shared memory "
+#| "usage by the amount of processes sharing that memory, then adding the "
+#| "process' private memory."
 msgctxt "@info:tooltip"
 msgid ""
 "This is an approximation of the real amount of physical memory that this "
@@ -367,19 +383,26 @@ msgstr ""
 "súkromnej pamäte procesu."
 
 #: extended_process_list.cpp:392
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Memory Usage"
 msgctxt "@title:column"
 msgid "Memory Usage"
 msgstr "Využitie pamäte"
 
 #: extended_process_list.cpp:395
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Memory"
 msgctxt "@title:column"
 msgid "Memory"
 msgstr "Pamäť"
 
 #: extended_process_list.cpp:402
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is an approximation of the real amount of physical memory that this "
+#| "process is using. It is calculated by dividing the process' shared memory "
+#| "usage by the amount of processes sharing that memory, then adding the "
+#| "process' private memory."
 msgctxt "@info:tooltip"
 msgid ""
 "This is an approximation of the real amount of physical memory that this "
@@ -393,7 +416,8 @@ msgstr ""
 "súkromnej pamäte procesu."
 
 #: extended_process_list.cpp:407
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "GPU Usage"
 msgctxt "@title:column"
 msgid "Swap Usage"
 msgstr "Využitie GPU"
@@ -402,7 +426,7 @@ msgstr "Využitie GPU"
 #, kde-format
 msgctxt "@title:column"
 msgid "Swap"
-msgstr "Swap"
+msgstr ""
 
 #: extended_process_list.cpp:412
 #, kde-format
@@ -410,8 +434,6 @@ msgctxt "@info:tooltip"
 msgid ""
 "This is an approximation of the amount of swap memory this process is using."
 msgstr ""
-"Toto je približný odhad množstva odkladacej pamäte, ktorú tento proces "
-"využíva."
 
 #: extended_process_list.cpp:416
 #, kde-format
@@ -547,20 +569,21 @@ msgid "GPU Memory"
 msgstr "Pamäť GPU"
 
 #: plugins/gpu/gpu.cpp:102
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "CPU"
 msgid "GPU"
-msgstr "GPU"
+msgstr "CPU"
 
 #: plugins/gpu/gpu.cpp:103
 #, kde-format
 msgid "Displays which GPU the process is using"
-msgstr "Zobrazuje, ktorý GPU proces využíva"
+msgstr ""
 
 #: plugins/gpu/gpu.cpp:349
 #, kde-format
 msgctxt "%1 is a number"
 msgid "GPU %1"
-msgstr "GPU %1"
+msgstr ""
 
 #: plugins/network/network.cpp:36
 #, kde-format
